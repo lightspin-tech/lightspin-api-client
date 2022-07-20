@@ -44,6 +44,13 @@ siem_results = siem_api.get_siem_results()
 A: this library is taking care of authentication and paging for you so you don't have to.
 It will also make sure you use the right API endpoints and body parameters.
 So eventually you only to develop your own logics, and we'll take care of Lightspin's side for you. 
+**Q: which SDK samples are provided?** 
+A: Currently we provide 4 SIEM API samples:
+1. [Splunk](https://github.com/lightspin-tech/lightspin-api-client/tree/main/src/lightspin_api_client/siem/splunk)
+2. [Datadog](https://github.com/lightspin-tech/lightspin-api-client/tree/main/src/lightspin_api_client/siem/datadog)
+3. [Elasticsearch](https://github.com/lightspin-tech/lightspin-api-client/tree/main/src/lightspin_api_client/siem/elastic)
+4. [Azure Sentinel](https://github.com/lightspin-tech/lightspin-api-client/tree/main/src/lightspin_api_client/siem/azure_sentinel)
+In the future we will also share samples for other public lightspin APIs.
 
 ### Contact Us
 This library is developed by the Lightspin engineering group.
