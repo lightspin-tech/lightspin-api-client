@@ -1,16 +1,7 @@
 # The Lightspin Python library
 
-![PyPI - Version](https://img.shields.io/pypi/v/lightspin-api-client)
-![PyPI - License](https://img.shields.io/pypi/l/lightspin-api-client)
-
 This Python library contains helpers and samples for Lightspin APIs.
 Upon installation, the library helpers can be used to consume the API with built-in JWT authentication, paging and dynamic API parameters usage.
-
-## Installation:
-
-```bash
-pip3 install lightspin-api-client
-```
 
 ## Usage - SIEM API example
 ```bash
@@ -29,7 +20,7 @@ siem_api = SiemApi(
 siem_results = siem_api.get_siem_results()
 ```
 
-## Configuration JSON sample
+## Configuration JSON sample ([Elasticsearch](https://elasticsearch-py.readthedocs.io/))
 ```bash
 {
   "log_level": "DEBUG",
