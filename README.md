@@ -44,6 +44,7 @@ siem_results = siem_api.get_siem_results()
 A: this library is taking care of authentication and paging for you so you don't have to.
 It will also make sure you use the right API endpoints and body parameters.
 So eventually you only to develop your own logics, and we'll take care of Lightspin's side for you. 
+
 **Q: which SDK samples are provided?** 
 A: Currently we provide 4 SIEM API samples:
 1. [Splunk](https://github.com/lightspin-tech/lightspin-api-client/tree/main/src/lightspin_api_client/siem/splunk)
