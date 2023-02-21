@@ -9,9 +9,9 @@ class VulnerabilitiesApi(Api):
         super().__init__(server_prefix, username, password, params_dict)
         self.logger = Logger("vulnerabilities_api").logger
 
-    def get_siem_results(self):
+    def get_vulnerabilities_results(self):
         all_results = []
-        endpoint = "api/vulnerabilities"
+        endpoint = "api/useraction/vulnerabilities"
         if self.params_dict:
             endpoint += "?" + urlencode(self.params_dict, doseq=True)
         url = urljoin(self.server_prefix, endpoint)
